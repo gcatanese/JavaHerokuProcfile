@@ -2,7 +2,7 @@
 
 Java application (with Procfile) showing how to deploy on Heroku. 
 
-See Medium article
+See Medium article [Java on Heroku: Common Pitfalls and Mistakes](https://medium.com/geekculture/java-on-heroku-common-pitfalls-and-mistakes-40f8ea32f104)
 
 Clone and mirror this repository
 ```
