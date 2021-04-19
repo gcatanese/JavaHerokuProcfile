@@ -15,6 +15,11 @@ public class ServiceOne {
 
     private static final Logger LOGGER = Logger.getLogger(ServiceOne.class.getName());
 
+    @RequestMapping(value = "/", method = GET)
+    public String home(HttpServletRequest request) {
+        return "Hi!";
+    }
+
     // reply to POST
     @RequestMapping(value = "/svc1", method = POST)
     @ResponseBody
